@@ -64,6 +64,7 @@ body{
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
+   
 }
 
 .banner-text{
@@ -91,11 +92,13 @@ body{
 }
 
 .banner-img{
-    width: 25%;
+    width: 100%;
     height: auto;
-    padding: 30px;
-    
+    background-size: cover;
+    background-position: center;
 }
+
+
 
 /* CARDS */
 .cards{
@@ -125,6 +128,7 @@ body{
     width: 200px;
     height: auto;
     margin: 10px;
+    box-shadow: 10px 7px 15px #4388e8;
     
     /* padding: 20px; */
    
@@ -140,17 +144,17 @@ body{
 }
 
 .card-1{
-    background-image: url(/img/mountain.jpg);
+    background-image: url("/Odin-Landing-Page/img/canoe.jpg");
 }
 
 .card-2{
-    background-image: url(/img/bali.jpg);
+    background-image: url("/Odin-Landing-Page/img/bali.jpg");
 }
 .card-3{
-    background-image: url(/img/cloud.jpg);
+    background-image: url("/Odin-Landing-Page/img/greece.jpg");
 }
 .card-4{
-    background-image: url(/img/mountain-resort.jpg);
+    background-image: url("/Odin-Landing-Page/img/sechelles.jpg");
 }
 .card p{
     font-size: 16px;
